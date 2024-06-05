@@ -1,0 +1,133 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: red;
+    z-index: 1;
+}
+body{
+    background-color: #FFA07A;
+}
+#h1-header{
+
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.h3-header{
+    font-size: arial, 15px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.link-cabeçalho{
+    text-decoration: none;
+    color: black;
+    word-spacing: 20px;
+    font-size: 16px;
+    font-family: arial;
+}
+#navegação{
+    text-align: right;
+    padding-right:  5px;
+}
+.section-1{
+
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 160px;
+    border-radius: 12px;
+}
+.h2-section1{
+    font-family: arial;
+    font-size: 25px;
+    padding-top: 27px;
+}
+.p1{
+    padding-top: 13px;
+    font-family: arial;
+    font-size: 22px;
+}
+#section-grid{
+    padding: 10px;
+    height: 10%;
+    padding-bottom: 20px;
+}
+.section-2{
+    background-color: red;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    text-align: center;
+}
+.grid{
+    background-color: none;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 3px;
+}
+.sub-grid{
+    margin: 0 auto;
+    padding: 20%;
+    background-color: #fff;
+}
+.img-pizza{
+    max-width: 100%;
+}
+.h2-cardapio{
+    font-family: arial;
+    font-size: 28px;
+    padding-top: 5px;
+}
+.h2-sub-grid{
+    font-family: arial;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.p-preços{
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.botao-acao{
+    width: 70%;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 12px;
+    padding-top: 5px;
+}
+.link-cabeçalho{
+    font-weight: bold;
+    font-family: arial;
+
+}
+.link-cabeçalho:hover{
+    color: yellow;
+    transition: all ease-in0out 3ms;
+}
+#sub-div-1{
+    height: 90%;
+    width: 265px;
+    margin: 0 auto;
+}
+#pizza-de-queijo{
+    height: 55%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
